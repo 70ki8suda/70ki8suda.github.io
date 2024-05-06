@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	font-size:8px;
+	font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+	color:#141414;
+	}
+
+#header_wrapper{
+	width:100%;
+	background-color:#23b2ff;
+	}
+header{
+	width:960px;
+	margin:0 auto;
+	color:#FFFFFF;
+	font-size:2.6em;
+	line-height:1.5em;
+	}
+#header_logo{
+	float:left;
+	margin-top:32px;
+	margin-bottom:32px;
+}
+
+#header_info{
+	float:right;
+	margin-top:16px;
+	}
+#nav_wrapper{
+	width:100%;
+	background-color:#20a9f2;	
+}
+
+#nav_wrapper nav{
+	width:960px;	
+	margin:0 auto;
+}
+
+#nav_wrapper nav ul li{
+	width:33.3%;
+	float:left;
+	padding-top:24px;
+	padding-bottom:18px;
+	text-align:center;
+	}
+	
+#nav_wrapper nav ul li a{
+	font-size:3.2em;
+	color:#ffffff;
+	text-decoration:none;
+	display:inline-block;
+	}	
+
+#nav_wrapper nav ul li a:after {
+    display: block;
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: #ff69b4;
+    margin: 10px auto 0;
+    transition: .25s ease-out;
+    -webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    -ms-transition: .25s ease-out;
+}
+
+#nav_wrapper nav ul li a:hover:after {
+    width: 100%;
+}
+
+#header_wrapper.change{
+	display:none;
+	position:fixed;
+}
+
+
+
+#content_wrapper{
+	width:100%;
+	background-color:#fffaf0;	
+}
+
+#content{
+	width:960px;
+	background-color:#fffaf0;	
+	margin:0 auto;
+	padding-top:80px;
+}
+
+
+#footer_wrapper{
+	width:100%;
+	background-color:#23b2ff;
+}
+
+footer{
+	position:relative;
+	width:960px;
+	margin:0 auto;	
+	display:flex;
+	display:-webkit-box;/*--- Androidブラウザ用 ---*/
+    display:-ms-flexbox;/*--- IE10 ---*/
+    display: -webkit-flex;/*--- safari（PC）用 ---*/
+	padding-bottom:30px;
+}
+
+footer h2{
+	padding-top:30px;
+}
+
+footer p{
+	color:#ffffff;
+	font-size:2rem;
+	padding-top:10px;
+	padding-left:16px;
+}
+footer p:first-of-type{
+	padding-top:20px;
+	
+}
+
+
+.sitemap a{
+	color:#ffffff;
+	font-size:2rem;
+	text-decoration:none;
+}
+
+div.sitemap{
+	padding-top:38px;
+	padding-left:25px;
+}
+div.sitemap dl dd{
+ padding-left:2em;	
+}
+
+div.sitemap dl dd{
+	padding-top:10px;
+}
+
+div.sitemap dl.item1{
+	padding-top:20px;
+}
+
+.top_button{
+	position:fixed;
+	bottom:5%;
+	right:5%;
+	display:none;
+	z-index: 999;
+}
+
+.triangle{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 62px 62px 0 0;
+border-color: #ff69b4 transparent transparent transparent;
+	
+
+}
+

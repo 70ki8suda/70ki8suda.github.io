@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav li:last-of-type{
+	background-color:#ff69b3;
+}
+
+h2{
+	position:relative;
+	padding-top:21px;
+	padding-left:28px;
+	font-size:3.2rem;
+	padding-bottom:30px;
+	z-index:10;
+}
+
+
+#access,#parking_lot{
+	position:relative;
+}
+
+#triangle1,#triangle2{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+#access dl dt{
+	display:inline;
+	border-bottom:1px dashed #C9C9C9;
+	font-weight:lighter;
+}
+
+#access dl dd{
+	border-bottom:1px dashed #C9C9C9;
+}
+
+#access dl{
+	display:flex;
+	display:-webkit-box;/*--- Androidブラウザ用 ---*/
+    display:-ms-flexbox;/*--- IE10 ---*/
+    display: -webkit-flex;/*--- safari（PC）用 ---*/
+	font-size:3.2rem;
+}
+
+.leftbox{
+	width:280px;
+	margin-left:48px;
+}
+
+#access dl div{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#access dl dd:nth-of-type(2){
+	margin-top:10px;
+}
+
+.gmap{
+position: relative;
+padding-bottom: 40%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+margin-bottom:100px;
+}
+.gmap iframe, .gmap object, .gmap embed{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#parking{
+	width:50%;
+	float:right;
+}
+
+#parking_img{
+	width:45%;
+	height:auto;
+}
+
+#parking_lot p{
+	font-size:3.2rem;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:48px;
+	font-weight:lighter;
+}
+
+
+/*googlemap ポインター無効化*/
+.gmap iframe{
+    pointer-events: none;
+}

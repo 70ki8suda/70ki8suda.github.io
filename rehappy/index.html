@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>通所リハビリセンターリハッピー</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="大阪府八尾市の(医)安田医院が運営する通所リハビリテーション(デイケア)施設、リハッピーのホームページです">
+
+    <meta property="og:title" content="通所リハビリセンターリハッピー" />
+    <meta property="og:url" content="http:///rehappy.info" />
+    <meta property="og:image" content="http://rehappy.info/data1/images/mainimg2sp.jpg" />
+    <meta property="og:site_name" content="通所リハビリセンターリハッピー" />
+    <meta property="og:description" content="大阪府八尾市の(医)安田医院が運営する通所リハビリテーション(デイケア)施設、リハッピーのホームページです" />
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine2/style.css" />
+    <script type="text/javascript" src="engine2/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+
+
+<body class="top">
+    <nav class="gnav is-pc">
+        <ul>
+            <!-- top.jsでliタグにfaクラスを付与しています -->
+            <li><a href="./about.html">リハッピーについて</a></li>
+            <li><a href="./steps.html">通所リハビリご利用案内</a></li>
+            <li><a href="./flow.html">一日の流れ・過ごし方</a></li>
+            <li><a href="#contact">お問い合わせ・見学のご案内</a></li>
+            <li><a href="./price.html">利用料金</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="scroll-down">
+        <img src="img/scrolldown-btn.svg" width="60px" height="72px" alt="scroll down">
+    </div>
+
+    <a href="#" class="is-sp" id="panel-btn"><span class="burger-btn"></span></a>
+    <nav class="is-sp drawer">
+        <ul>
+            <li><a href="./index.html">トップページ</a></li>
+            <li><a href="./about.html">リハッピーについて</a></li>
+            <li><a href="./steps.html">通所リハビリご利用案内</a></li>
+            <li><a href="./flow.html">一日の流れ・過ごし方</a></li>
+            <li><a href="./price.html">利用料金</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div id="top-slider"></div>
+
+    <script>
+        var topSlider = document.getElementById("top-slider");
+        //スマホ用、pc用sliderを windowsizeで切り替えています。
+        (function() {
+            if (window.matchMedia('(max-width:768px)').matches) {
+                topSlider.innerHTML = '<div id="wowslider-container1"><div class="ws_images"><ul><li><img src="data1/images/mainimg1sp.jpg" alt="mainimg1-sp" title="mainimg1-sp" id="wows1_0"/></li><li><img src="data1/images/mainimg2sp.jpg" alt="mainimg2-sp" title="mainimg2-sp" id="wows1_1"/></li><li><img src="data1/images/mainimg3sp.jpg" alt="mainimg3-sp" title="mainimg3-sp" id="wows1_2"/></li></ul></div><div class="ws_bullets"><div><a href="#" title="mainimg1-sp"><span><img src="data1/tooltips/mainimg1sp.jpg" alt="mainimg1-sp"/>1</span></a><a href="#" title="mainimg2-sp"><span><img src="data1/tooltips/mainimg2sp.jpg" alt="mainimg2-sp"/>2</span></a><a href="#" title="mainimg3-sp"><span><img src="data1/tooltips/mainimg3sp.jpg" alt="mainimg3-sp"/>3</span></a></div></div><div class="ws_shadow"></div><header class="is-sp"><h1><img src="img/logo.svg" width="120px" height="55px" alt="通所リハビリセンターリハッピー"></h1> <address> <div class="header-address"> <p>〒581-0072 <br>大阪府八尾市久宝寺2-1-14</p> </div> <div class="header-tel"> <p>TEL : 072-915-0037</p> <p>FAX : 072-915-0301</p> </div> </address></header></div>';
+            } else {
+                topSlider.innerHTML = '<div id=wowslider-container2><div class=ws_images><ul><li><img alt=mainimg1 src=data2/images/mainimg1.jpg id=wows2_0 title=mainimg1><li><img alt=mainimg2 src=data2/images/mainimg2.jpg id=wows2_1 title=mainimg2><li><img alt=mainimg3 src=data2/images/mainimg3.jpg id=wows2_2 title=mainimg3></ul></div><div class=ws_bullets><div><a href=# title=mainimg1><span><img alt=mainimg1 src=data2/tooltips/mainimg1.jpg>1</span></a> <a href=# title=mainimg2><span><img alt=mainimg2 src=data2/tooltips/mainimg2.jpg>2</span></a> <a href=# title=mainimg3><span><img alt=mainimg3 src=data2/tooltips/mainimg3.jpg>3</span></a></div></div><div class=ws_shadow></div><header><h1><img alt=通所リハビリセンターリハッピー src=img/logo.svg width="120px" height="55px"></h1><address><div class=header-address><p>〒581-0072<br>大阪府八尾市久宝寺2-1-14</div><div class=header-tel><p>TEL : 072-915-0037<p>FAX : 072-915-0301</div></address></header></div>'
+            }
+        })();
+
+    </script>
+
+
+    <!-- pcslider
+
+  <div id="wowslider-container2">
+  <div class="ws_images"><ul>
+  		<li><img src="data2/images/mainimg1.jpg" alt="mainimg1" title="mainimg1" id="wows2_0"/></li>
+  		<li><img src="data2/images/mainimg2.jpg" alt="mainimg2" title="mainimg2" id="wows2_1"/></li>
+  		<li><img src="data2/images/mainimg3.jpg" alt="mainimg3" title="mainimg3" id="wows2_2"/></li>
+  	</ul></div>
+  	<div class="ws_bullets"><div>
+  		<a href="#" title="mainimg1"><span><img src="data2/tooltips/mainimg1.jpg" alt="mainimg1"/>1</span></a>
+  		<a href="#" title="mainimg2"><span><img src="data2/tooltips/mainimg2.jpg" alt="mainimg2"/>2</span></a>
+  		<a href="#" title="mainimg3"><span><img src="data2/tooltips/mainimg3.jpg" alt="mainimg3"/>3</span></a>
+  	</div></div>
+  <div class="ws_shadow"></div>
+
+  <header>
+    <h1><img src="img/logo.svg" alt="通所リハビリセンターリハッピー"></h1>
+    <address>
+      <div class="header-address">
+        <p>〒581-0072 <br>大阪府八尾市久宝寺2-1-14</p>
+      </div>
+      <div class="header-tel">
+        <p>TEL : 072-915-0037</p>
+        <p>FAX : 072-915-0301</p>
+      </div>
+    </address>
+  </header>
+
+</div> -->
+
+    <!-- sp-slider
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/mainimg1sp.jpg" alt="mainimg1-sp" title="mainimg1-sp" id="wows1_0"/></li>
+		<li><img src="data1/images/mainimg2sp.jpg" alt="mainimg2-sp" title="mainimg2-sp" id="wows1_1"/></li>
+		<li><img src="data1/images/mainimg3sp.jpg" alt="mainimg3-sp" title="mainimg3-sp" id="wows1_2"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="mainimg1-sp"><span><img src="data1/tooltips/mainimg1sp.jpg" alt="mainimg1-sp"/>1</span></a>
+		<a href="#" title="mainimg2-sp"><span><img src="data1/tooltips/mainimg2sp.jpg" alt="mainimg2-sp"/>2</span></a>
+		<a href="#" title="mainimg3-sp"><span><img src="data1/tooltips/mainimg3sp.jpg" alt="mainimg3-sp"/>3</span></a>
+	</div></div>
+<div class="ws_shadow"></div>
+<header class="is-sp">
+  <h1><img src="img/logo.svg" alt="通所リハビリセンターリハッピー"></h1>
+  <address>
+    <div class="header-address">
+      <p>〒581-0072 <br>大阪府八尾市久宝寺2-1-14</p>
+    </div>
+    <div class="header-tel">
+      <p>TEL : 072-915-0037</p>
+      <p>FAX : 072-915-0301</p>
+    </div>
+  </address>
+</header>
+</div> -->
+
+    <!--
+<script>
+
+var sliderscript1 = document.createElement('script');
+var sliderscript2 = document.createElement('script');
+sliderscript1.type = 'text/javascript';
+sliderscript2.type = 'text/javascript';
+sliderscript1.src = "engine2/wowslider.js";
+sliderscript2.src = "engine2/script.js";
+
+document.body.insertBefore(sliderscript1);
+document.body.insertBefore(sliderscript2);
+console.log(sliderscript1);
+</script> -->
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <script type="text/javascript" src="engine2/wowslider.js"></script>
+    <script type="text/javascript" src="engine2/script.js"></script>
+
+
+
+
+
+    <div class="wrap">
+
+
+        <section class="top-section1">
+            <h2 class="section-ttl">リハッピーとは… <br><span class="is-pc"></span>介護保険を利用した半日型の専門的リハビリテーション施設です。</h2>
+            <p class="rehappy-exp">3〜4時間のリハビリに特化した内容で最新のリハビリマシン、トレッドミル、レッドコード、平行棒などを設置。<br>医師・理学療法士・作業療法士・柔道整復師・トレーナーなどによりリハビリを提供します。（要支援の方にはご希望により1〜2時間のリハビリも用意しています)</p>
+            <div class="rehappy-detail">
+                <p class="rehappy-detail-btn"><a class="fa fa-hand-o-right" aria-hidden="true" href="./about.html">リハッピー詳細</a></p>
+            </div>
+        </section>
+        <!-- End .top-section1 -->
+
+        <section class="top-section2">
+            <h2 class="section-ttl">
+                こんな症状・状態の方はご利用ください
+            </h2>
+
+            <ul class="symptons">
+                <li>自宅で歩く機会が少なく歩行が困難</li>
+                <li>医療保険でのリハビリは終了しているが寝たきりになりたくないのでリハビリを続けたい</li>
+                <li>退院後もリハビリを続けたい</li>
+                <li>入浴や食事の提供は希望せず短時間でしっかりとリハビリを受けたい</li>
+                <li>専門のスタッフに定期的に身体機能をチェックしアドバイスしてほしい</li>
+                <li>腰痛・肩こり・膝痛などを治したい</li>
+                <li>体力に自信をつけてできる限り自立した生活を送りたい</li>
+            </ul>
+
+            <div class="rehappy-detail rehappy-detail-inrow">
+                <p class="rehappy-detail-btn"><a class="fa fa-hand-o-right" aria-hidden="true" href="./steps.html">通所リハビリご利用案内詳細</a></p>
+            </div>
+            <div class="rehappy-detail">
+                <p class="rehappy-detail-btn"><a class="fa fa-hand-o-right" aria-hidden="true" href="./flow.html">1日の流れ・過ごし方詳細</a></p>
+            </div>
+        </section>
+        <!-- End .top-section2 -->
+
+
+
+        <section class="top-section3">
+            <h2 class="section-ttl">
+                サービス提供時間
+            </h2>
+            <table class="mod-time-table">
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                    </tr>
+                    <tr class="first-row">
+                        <td class="name">午前</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                    </tr>
+                    <tr class="second-row">
+                        <td class="name">午後</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>○</td>
+                        <td>&ndash;</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="time-exp">
+                ※&nbsp;&nbsp;<span>午前:&nbsp;&nbsp;&nbsp;&nbsp;9:00〜12:15 </span>
+                <span>午後:&nbsp;&nbsp;&nbsp;&nbsp;13:00〜16:15 </span>
+            </div>
+
+            <div class="holiday">
+                休業日 : 土曜日午後・日曜日・祝日
+            </div>
+
+            <div class="limit-number">
+                利用定員30名（午前30名&nbsp;&nbsp;午後30名)
+            </div>
+
+        </section>
+        <!-- End .top-section3 -->
+
+        <section class="top-section4">
+            <h2 class="section-ttl">所在地</h2>
+            <address>〒581-0072 &nbsp;&nbsp;大阪府八尾市久宝寺2-1-14</address>
+            <div class="gmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.06553282154!2d135.5895980152155!3d34.62778419462773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000df50078c70a1%3A0x1ac23b7b5a876c07!2z44CSNTgxLTAwNzIg5aSn6Ziq5bqc5YWr5bC-5biC5LmF5a6d5a-677yS5LiB55uu77yR4oiS77yR77yU!5e0!3m2!1sja!2sjp!4v1495513428880" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+        <div class="parking-and-cars">
+
+            <section class="top-section5">
+                <h2 class="section-ttl">駐車場</h2>
+                <div class="parking-img">
+                    <img src="img/parkinglot.jpg" alt="駐車場写真">
+                </div>
+            </section>
+
+            <section class="top-section6">
+                <h2 class="section-ttl">送迎について</h2>
+                <div class="pick-up-cars">
+                    <div class="pick-up-car">
+                        <img src="img/pickup-car1.jpg" alt="送迎車写真">
+                    </div>
+                </div>
+                <div class="pick-up">
+                    <p>八尾市、東大阪市、大阪市平野区</p>
+                    <p class="mod-table-sentence"><span>※</span><span>当施設より片道15分程度の範囲内で対応させていただきます。ご希望の方はご相談ください。</span></p>
+                </div>
+            </section>
+
+        </div>
+
+        <section class="mod-contact" id="contact">
+            <h2 class="section-ttl">お問い合わせ・見学のご案内</h2>
+
+            <div class="mod-contact-inner">
+                <p class="contact-exp">
+                    施設の見学を希望される方は直接電話をいただくか、担当のケアマネージャー様にお申し出ください。
+                </p>
+
+                <div class="reservation-info">
+                    <h3 class="reserve-subttl">お問い合わせ・見学の予約はこちら</h3>
+
+                    <a href="tel:0729150037">
+        <address class="fa fa-phone rehappy-tel" aria-hidden="true">072-915-0037</address>
+        </a>
+
+                    <div class="rehappy-address">
+                        <p>通所リハビリセンターリハッピー</p>
+                        <p>八尾市久宝寺2-1-14</p>
+                        <p>事業所番号 2715504714</p>
+                    </div>
+
+                    <div class="yasudaclinic">
+                        <p>運営法人<br>医療法人安田医院</p>
+                        <p>八尾市久宝寺1-3-40</p>
+                        <a href="tel:0729233084">
+          <address class="fa fa-phone" aria-hidden="true">072-923-3084</address>
+          </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h1><a href="./index.html"><img src="img/logo.svg" alt="通所リハビリセンターリハッピー"></a></h1>
+            <address>
+      <div class="header-address">
+        <p>〒581-0072 <br>大阪府八尾市久宝寺2-1-14</p>
+      </div>
+      <div class="header-tel">
+        <p>TEL : 072-915-0037</p>
+        <p>FAX : 072-915-0301</p>
+      </div>
+    </address>
+        </footer>
+
+
+    </div>
+    <!-- End .wrap -->
+
+    <div class="copyright">Copyright © 2017 通所リハビリセンターリハッピー All rights reserved.</div>
+
+    <script id="__bs_script__">
+        //<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.12'><\/script>".replace("HOST", location.hostname));
+        //]]>
+
+    </script>
+    <script src="./bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#nav_wrapper ul li:nth-of-type(2){
+	background-color:#ff69b4;
+}
+
+#content1{
+	margin-left:84.2px;
+}
+
+#timetable tbody{
+	color:#ffffff;
+	text-align:center;
+	font-size:3.2em;
+	line-height:80px;
+}
+#timetable tbody tr th{
+	background-color:#20a0ff;
+	width:80px;
+	height:80px;
+	}
+#timetable tbody tr th:last-of-type{
+	border-radius:0 5px 0 0 /0 5px 0 0;
+}
+	
+#timetable tbody tr th.name{
+	width:160px;
+	border-radius:5px 0 0 0 /5px 0 0 0;
+	border-right:solid 5px #ffffff;
+	}	
+
+#timetable tbody tr td{
+	color:#141414;
+	width:80px;
+	background-color:#ffffff;
+}
+
+#timetable tbody tr.first-row td{
+	border-bottom:solid #20a0ff 5px;
+	font-size:5rem;
+}
+
+#timetable tbody tr.first-row td:first-of-type{
+	font-size:2.8rem;
+}
+
+#timetable tbody tr.second-row td:first-of-type{
+	font-size:2.8rem;
+}
+
+#timetable tbody tr.second-row td{
+	font-size:5rem;
+}
+
+table tbody tr td.name{
+	width:160px;
+	border-right:solid #23b2ff 5px;
+	}
+
+#timetable tbody tr.second-row td:first-of-type{
+	border-radius:0 0 0 5px /0 0 0 5px;
+}
+
+#timetable tbody tr.second-row td:last-of-type{
+	border-radius:0 0 5px 0 /0 0 5px 0;
+}
+
+
+
+
+#table_explanation{
+	font-size:2.8em;
+	text-align:center;
+	margin-top:10px;
+	padding-bottom:100px;
+}
+
+#table_wrapper{
+	width:800px;
+	margin:0 auto;
+	
+}
+
+
+#about_consultation{
+	position:relative;
+}
+
+#triangle1{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+
+h2{
+	position:relative;
+	padding-top:21px;
+	padding-left:28px;
+	font-size:3.2rem;
+	padding-bottom:30px;
+	z-index:10;
+}
+
+#about_consultation h3{
+	font-size:4.0rem;
+	line-height:4rem;
+	font-weight:lighter;
+	padding-left:5px;	
+	position:relative;
+}
+
+#about_consultation h3:nth-of-type(2){
+	margin-bottom:40px;
+
+}
+
+#medical_courses{
+	font-size:3.2rem;
+	margin-top:36px;
+	margin-bottom:36px;
+}
+
+#about_consultation h3:before{
+	content:"";
+	display:inline-block;
+    width: 10px;
+	height: 10px;
+	margin-right:5px;
+	line-height:4rem;
+	vertical-align:middle;
+    -webkit-border-radius: 25px;/* width,heightの半分 */
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #23b2ff;/* 円の色 */
+}
+
+.ac{
+	margin-bottom:40px;
+	}
+
+
+.ac:after{
+content: ""; 	
+display:inline-block; 
+width: 12px; 
+height: 12px; 
+border-top: 6px solid #23b2ff; 
+border-right: 6px solid #23b2ff; 
+-webkit-transform:rotate(135deg); 
+-moz-transform:rotate(135deg);
+transform:rotate(135deg);
+margin-bottom:8px;
+margin-left:50px;
+}
+
+
+.ac-container{
+	width: 960px;
+	margin: 10px auto 30px auto;
+}
+
+.ac-container label{
+	position:relative;
+	z-index:20;
+	cursor:pointer;
+}
+
+.ac-container label:hover .ac:after{
+	border-color:#ff69b4;
+	transition:0.3s;
+}
+
+
+
+
+
+.ac-container input:checked + label .ac:after{
+-webkit-transform:rotate(315deg); 
+-moz-transform:rotate(315deg);
+transform:rotate(315deg);
+margin-bottom:-5px;	
+}
+
+
+
+
+.ac-container input{
+	display: none;
+}
+
+.ac-container article{
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	transition: 
+		height 0.3s ease-in-out;
+}
+.ac-container input:checked ~ article{
+	transition: 
+		height 0.5s ease-in-out;
+}
+
+.ac-container input#ac-1:checked ~ article#insurance{
+	height: 800px;
+}
+
+h3.ac{
+	margin-top:20px;
+}
+.ac-container article h4{
+	font-size:2.2rem;
+	line-height:2.5rem;
+	margin-top:10px;
+	margin-left:20px;
+	display:inline-block;
+	border-bottom:2px solid #ff69b4;
+	margin-bottom:20px;
+	
+}
+
+.ac-container article p{
+	font-size:1.8rem;
+	line-height:1.9rem;
+	padding-left:24px;
+}
+
+.ac-container input#ac-2:checked ~ article#private_practice{
+	height:250px;
+}
+
+.ac-container input#ac-3:checked ~ article#check-ups{
+		height:400px;
+}
+
+#clinics_in_corporation{
+	position:relative;
+	padding-bottom:80px;
+}
+
+#triangle2{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+
+#clinics_in_corporation ul a{
+	text-decoration:none;
+	font-size:2.8rem;
+	font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+	color:#141414;
+}
+
+#clinics_in_corporation ul li{
+	padding-bottom:26px;
+	margin-left:35px;
+}
+
+#clinics_in_corporation ul a{
+	position:relative;
+}
+
+#clinics_in_corporation ul a:before{
+	display: inline-block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -21px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+	background-color:#ff69b4;
+    border-radius: 50%;        /* CSS3草案 */ 
+    -webkit-border-radius: 50%;    /* Safari,Google Chrome用 */ 
+    -moz-border-radius: 50%;   /* Firefox用 */ 
+}
+
+#clinics_in_corporation a:after {        /*「after要素」で三角 */
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    border: 5px solid transparent;        /*top right bottom を透明化 */
+    border-left: 5px solid #fff;
+}
+
+#clinics_in_corporation ul a:hover:before{
+	left:-16px;
+	transition:.2s;
+}
+
+#clinics_in_corporation a:hover:after{
+	left:-10px;
+	transition:.2s;
+}
+
+ul#corp_list{
+	padding-left:84.2px;
+}
+
+ul#corp_list li{
+	list-style:none;
+}
