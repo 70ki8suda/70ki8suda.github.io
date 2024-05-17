@@ -45,10 +45,6 @@ ul.slider{
 	border-radius:5px;	
 }
 
-#info li{
-	text-align: left;
-}
-
 #info h2{
 	font-size:3.2em;
 	margin:0 auto;
@@ -68,6 +64,8 @@ ul.slider{
 	border-bottom:solid #aaaaaa 1px;
 	padding-bottom:5px;
 	padding-top:24px;
+	text-align: left;
+	line-height: 1.5;
 }
 
 
