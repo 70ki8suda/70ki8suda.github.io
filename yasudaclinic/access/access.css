@@ -77,6 +77,7 @@ height: 100%;
 #parking{
 	width:50%;
 	float:right;
+	margin-bottom: 30px;
 }
 
 #parking_img{
